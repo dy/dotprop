@@ -11,4 +11,4 @@ getProp([1,2,3], 2) // 3
 getProp({}, 'a.b') // undefined
 ```
 
-[![NPM](https://nodei.co/npm/enot.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/enot/)
+[![NPM](https://nodei.co/npm/dotprop.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dotprop/)
