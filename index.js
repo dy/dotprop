@@ -5,7 +5,7 @@
  *
  * @param  {Object} holder   Target object where to look property up
  * @param  {string} propName Dot notation, like 'this.a.b.c'
- * @return {[type]}          [description]
+ * @return {*}          A property value
  */
 module.exports = function(holder, propName){
 	var propParts = (propName + '').split('.');
