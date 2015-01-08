@@ -9,17 +9,27 @@
   "files": [
     "index.js"
   ],
+  "analogs": [
+    "dot-prop"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:dfcreative/dotprop.git"
   },
   "keywords": [
+    "dot-prop",
     "dot",
     "json",
     "property",
     "value",
     "notation",
-    "object"
+    "object",
+    "get-prop",
+    "obj",
+    "prop",
+    "path",
+    "get",
+    "access"
   ],
   "author": {
     "name": "Deema Yvanow",
