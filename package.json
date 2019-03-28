@@ -1,6 +1,6 @@
 {
   "name": "dotprop",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Get property value by dot notation",
   "main": "index.js",
   "scripts": {
