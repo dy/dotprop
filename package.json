@@ -9,12 +9,9 @@
   "files": [
     "index.js"
   ],
-  "analogs": [
-    "dot-prop"
-  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:dfcreative/dotprop.git"
+    "url": "git@github.com:dy/dotprop.git"
   },
   "keywords": [
     "dot-prop",
@@ -29,16 +26,19 @@
     "prop",
     "path",
     "get",
-    "access"
+    "access",
+    "getprop",
+    "ramda.path",
+    "dot path"
   ],
   "author": {
-    "name": "Deema Yvanow",
-    "email": "dfcreative@gmail.com",
-    "url": "http://github.com/dfcreative"
+    "name": "Dima Yv",
+    "email": "df.creative@gmail.com",
+    "url": "http://github.com/dy"
   },
   "license": "unlicensed",
   "bugs": {
-    "url": "https://github.com/dfcreative/dotprop/issues"
+    "url": "https://github.com/dy/dotprop/issues"
   },
-  "homepage": "https://github.com/dfcreative/dotprop"
+  "homepage": "https://github.com/dy/dotprop"
 }

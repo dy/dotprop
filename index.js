@@ -8,11 +8,12 @@
  * @return {*}          A property value
  */
 module.exports = function(holder, propName){
-	if (propName === undefined) return holder;
+	if (propName == null || !holder) return holder;
 	var propParts = (propName + '').split('.');
 	var result = holder, lastPropName;
-	while ((lastPropName = propParts.shift()) !== undefined) {
-		if (result[lastPropName] === undefined) return undefined;
+
+	while ((lastPropName = propParts.shift()) != null) {
+		if (!result[lastPropName]) return !propParts.length ? result[lastPropName] : undefined;
 		result = result[lastPropName];
 	}
 	return result;

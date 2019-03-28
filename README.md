@@ -1,4 +1,4 @@
-# dotprop [![Build Status](https://travis-ci.org/dfcreative/dotprop.svg?branch=master)](https://travis-ci.org/dfcreative/dotprop)  [![Code Climate](https://codeclimate.com/github/dfcreative/dotprop/badges/gpa.svg)](https://codeclimate.com/github/dfcreative/dotprop) <a href="http://unlicense.org/UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
+# dotprop [![Build Status](https://travis-ci.org/dy/dotprop.svg?branch=master)](https://travis-ci.org/dy/dotprop)
 
 Get property by dot notation.
 A short and dependable implementation.
