@@ -9,6 +9,10 @@ var getProp = require('dotprop');
 getProp({a: { b: { c: 1}} }, 'a.b.c') // 1
 getProp([1,2,3], 2) // 3
 getProp({}, 'a.b') // undefined
+
+// recognizes arrays too
+getProp({a: { b: { c: 1}} }, ['a', 'b', 'c']) // 1
+getProp({a: { 'b.c': 1 }}, ['a', 'b.c']) // 1
 ```
 
 [![NPM](https://nodei.co/npm/dotprop.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dotprop/)

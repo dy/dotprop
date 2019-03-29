@@ -9,7 +9,7 @@
  */
 module.exports = function(holder, propName){
 	if (propName == null || !holder) return holder;
-	var propParts = (propName + '').split('.');
+	var propParts = Array.isArray(propName) ? propName : (propName + '').split('.');
 	var result = holder, lastPropName;
 
 	while ((lastPropName = propParts.shift()) != null) {
