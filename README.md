@@ -15,4 +15,9 @@ getProp({a: { b: { c: 1}} }, ['a', 'b', 'c']) // 1
 getProp({a: { 'b.c': 1 }}, ['a', 'b.c']) // 1
 ```
 
+## Similar
+
+* [sindresohrus/dot-prop](https://github.com/sindresorhus/dot-prop)
+* [developit/dlv](https://github.com/developit/dlv)
+
 [![NPM](https://nodei.co/npm/dotprop.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dotprop/)
