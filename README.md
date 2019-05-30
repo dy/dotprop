@@ -17,7 +17,7 @@ getProp({a: { 'b.c': 1 }}, ['a', 'b.c']) // 1
 
 ## Similar
 
-* [sindresohrus/dot-prop](https://github.com/sindresorhus/dot-prop)
-* [developit/dlv](https://github.com/developit/dlv)
+* [sindresohrus/dot-prop](https://github.com/sindresorhus/dot-prop) - enables escaping `\.` at price of larger codebase
+* [developit/dlv](https://github.com/developit/dlv) - not tested yet
 
 [![NPM](https://nodei.co/npm/dotprop.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dotprop/)
