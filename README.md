@@ -1,4 +1,4 @@
-# dotprop [![Build Status](https://travis-ci.org/dy/dotprop.svg?branch=master)](https://travis-ci.org/dy/dotprop)
+# dotprop [![test](https://github.com/dy/dotprop/actions/workflows/node.js.yml/badge.svg)](https://github.com/dy/dotprop/actions/workflows/node.js.yml)
 
 Get property by dot notation.
 A short and dependable implementation.
