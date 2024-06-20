@@ -4,7 +4,7 @@ Get property by dot notation.
 A short and dependable implementation.
 
 ```js
-var getProp = require('dotprop');
+import getProp from 'dotprop';
 
 getProp({a: { b: { c: 1}} }, 'a.b.c') // 1
 getProp([1,2,3], 2) // 3
@@ -22,3 +22,5 @@ getProp({a: { 'b.c': 1 }}, ['a', 'b.c']) // 1
 * [facebookindicator/idx](https://github.com/facebookincubator/idx)
 
 [![NPM](https://nodei.co/npm/dotprop.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dotprop/)
+
+<p align=center><a href="https://github.com/krishnized/license/">🕉</a></p>
