@@ -7,7 +7,7 @@
  * @param  {string} propName Dot notation, like 'this.a.b.c'
  * @return {*}          A property value
  */
-module.exports = function(holder, propName){
+export default (holder, propName) => {
 	if (propName == null || !holder) return holder;
 	var propParts = Array.isArray(propName) ? propName : (propName + '').split('.');
 	var result = holder, lastPropName;
@@ -16,5 +16,6 @@ module.exports = function(holder, propName){
 		if (!result[lastPropName]) return !propParts.length ? result[lastPropName] : undefined;
 		result = result[lastPropName];
 	}
+
 	return result;
 };
